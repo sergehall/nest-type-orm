@@ -30,9 +30,6 @@ export class UsersEntity {
   @Column({ nullable: false, unique: true })
   email: string;
 
-  @Column({ type: 'date', nullable: true })
-  dob: Date | null;
-
   @Column({ nullable: false })
   passwordHash: string;
 
